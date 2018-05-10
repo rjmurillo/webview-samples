@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.WebViewC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.Designer", "WebViewSamples.WPF.Designer\WebViewSamples.WPF.Designer.csproj", "{9833494F-B1E2-4A25-863A-303C0EC80287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.NoDesigner", "WebViewSamples.Forms.NoDesigner\WebViewSamples.Forms.NoDesigner.csproj", "{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
