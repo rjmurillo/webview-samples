@@ -17,7 +17,7 @@
     <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="all" />
     <PackageReference Include="Nerdbank.GitVersioning" Version=" 2.1.23" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Toolkit.Win32.UI.Controls">
-      <Version>3.0.0-preview-build.222</Version>
+      <Version>3.0.0-preview.309</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
