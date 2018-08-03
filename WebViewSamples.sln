@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Toolkit.Win32.Sam
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WebViewSamples.WinForms.DesktopBridge.WAP", "WebViewSamples.WinForms.DesktopBridge.WAP\WebViewSamples.WinForms.DesktopBridge.WAP.wapproj", "{23442E02-34DA-4FC8-B49E-BF0B4625AA74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.MultipleWebViews", "WebViewSamples.Forms.MultipleWebViews\WebViewSamples.Forms.MultipleWebViews.csproj", "{08EE70C2-676D-425B-9633-1C9B84605562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,22 @@ Global
 		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.ActiveCfg = Release|x86
 		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.Build.0 = Release|x86
 		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.Deploy.0 = Release|x86
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Win32.Build.0 = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|x64.Build.0 = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|x86.Build.0 = Debug|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|Win32.ActiveCfg = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|Win32.Build.0 = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|x64.ActiveCfg = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|x64.Build.0 = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|x86.ActiveCfg = Release|Any CPU
+		{08EE70C2-676D-425B-9633-1C9B84605562}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
