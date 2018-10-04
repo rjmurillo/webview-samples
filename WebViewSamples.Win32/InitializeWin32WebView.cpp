@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include <Commdlg.h>
+#include "IAsyncOperationHelper.h"
 
 using namespace ABI::Windows::Foundation;
 using namespace ABI::Windows::Storage::Streams;
@@ -97,7 +98,7 @@ void App::ConfigureAddressBar()
 
 }
 
-void App::InitializeWin32WebView()
+void App::InitializeWin32WebView(bool async)
 {
     // Use default options if options weren't set on the App during App::RunNewInstance
     if (!m_processOptions)
@@ -118,17 +119,23 @@ void App::InitializeWin32WebView()
         HwndWindowRectToBoundsRect(m_hostWindow),
         &createWebViewAsyncOperation));
 
-    HRESULT hr = createWebViewAsyncOperation->put_Completed((Callback<IAsyncOperationCompletedHandler<WebViewControl*>>([this, createWebViewAsyncOperation](IAsyncOperation<WebViewControl*>*, AsyncStatus status) -> HRESULT
+    if (async) {
+        HRESULT hr = createWebViewAsyncOperation->put_Completed(Callback<IAsyncOperationCompletedHandler<WebViewControl*>>([this, createWebViewAsyncOperation](IAsyncOperation<WebViewControl*>*, AsyncStatus status) -> HRESULT
+        {
+            CheckFailure(createWebViewAsyncOperation->GetResults(&m_webViewControl));
+            ConfigureAddressBar();
+            NavigateToUri(L"https://www.bing.com/");
+
+            return S_OK;
+        }).Get());
+        CheckFailure(hr);
+    }
+    else
     {
-
-        CheckFailure(createWebViewAsyncOperation->GetResults(&m_webViewControl));
-
+        CheckFailure(AsyncOpHelpers::WaitForCompletionAndGetResults(createWebViewAsyncOperation.Get(), m_webViewControl.ReleaseAndGetAddressOf()));
         ConfigureAddressBar();
         NavigateToUri(L"https://www.bing.com/");
-
-        return S_OK;
-    })).Get());
-    CheckFailure(hr);
+    }
 }
 
 void App::SetScale(_In_ double scale)
