@@ -27,6 +27,9 @@
     <ClInclude Include="Win32WebViewSampleApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IAsyncOperationHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
