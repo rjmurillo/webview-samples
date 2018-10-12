@@ -1,5 +1,5 @@
 ﻿using System.Windows.Forms;
-using Microsoft.Toolkit.Win32.UI.Controls.WinForms;
+using Microsoft.Toolkit.Forms.UI.Controls;
 
 namespace WebViewSamples.Forms.WebViewControlProcessHelper
 {

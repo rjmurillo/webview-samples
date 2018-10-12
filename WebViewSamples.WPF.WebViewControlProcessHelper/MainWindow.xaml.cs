@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using Microsoft.Toolkit.Win32.UI.Controls.WPF;
+using Microsoft.Toolkit.Wpf.UI.Controls;
 
 namespace WebViewSamples.WPF.WebViewControlProcessHelper
 {

@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interop;
-using Microsoft.Toolkit.Win32.UI.Controls.WPF;
+using Microsoft.Toolkit.Wpf.UI.Controls;
 
 namespace WebViewSamples.WPF.WebViewControlProcess
 {

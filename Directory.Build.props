@@ -1,6 +1,11 @@
 <Project>
   <PropertyGroup>
     <UICulture>en-US</UICulture>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <Description>Samples for using WebViewControl in Windows Forms and Windows Presentation Foundation</Description>
+
+    <IsFormsProject>$(MSBuildProjectName.Contains('Forms'))</IsFormsProject>
+    <IsWPFProject>$(MSBuildProjectName.Contains('WPF'))</IsWPFProject>    
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Common.AssemblyInfo.cs">
@@ -14,15 +19,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="all" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version=" 2.1.23" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.Toolkit.Win32.UI.Controls">
-      <Version>3.1.0-build.7</Version>
-    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version=" 2.*" PrivateAssets="all" />        
+    <PackageReference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsFormsProject)' == 'true'" />
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsWPFProject)' == 'true'" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\stylecop.json">
       <Link>stylecop.json</Link>
     </AdditionalFiles>
-  </ItemGroup>
+  </ItemGroup>  
 </Project>

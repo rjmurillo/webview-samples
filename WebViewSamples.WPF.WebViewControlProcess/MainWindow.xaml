@@ -8,6 +8,7 @@
     Title="MainWindow"
     Width="800"
     Height="450"
-    mc:Ignorable="d" Loaded="OnWindowLoad">
+    Loaded="OnWindowLoad"
+    mc:Ignorable="d">
     <Grid x:Name="Grid" />
 </Window>

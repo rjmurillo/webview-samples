@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.webView1 = new Microsoft.Toolkit.Win32.UI.Controls.WinForms.WebView();
-            this.webView2 = new Microsoft.Toolkit.Win32.UI.Controls.WinForms.WebView();
+            this.webView1 = new Microsoft.Toolkit.Forms.UI.Controls.WebView();
+            this.webView2 = new Microsoft.Toolkit.Forms.UI.Controls.WebView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -97,8 +97,8 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private Microsoft.Toolkit.Win32.UI.Controls.WinForms.WebView webView1;
-        private Microsoft.Toolkit.Win32.UI.Controls.WinForms.WebView webView2;
+        private Microsoft.Toolkit.Forms.UI.Controls.WebView webView1;
+        private Microsoft.Toolkit.Forms.UI.Controls.WebView webView2;
     }
 }
 
