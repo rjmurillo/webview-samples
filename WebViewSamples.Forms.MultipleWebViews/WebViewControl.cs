@@ -3,8 +3,8 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using Microsoft.Toolkit.Forms.UI.Controls;
 using Microsoft.Toolkit.Win32.UI.Controls.Interop.WinRT;
-using Microsoft.Toolkit.Win32.UI.Controls.WinForms;
 
 namespace WebViewSamples.Forms.MultipleWebViews
 {
@@ -18,7 +18,7 @@ namespace WebViewSamples.Forms.MultipleWebViews
             webView1.Source = new Uri("http://www.fishgl.com");
             webView1.Process.ProcessExited += OnWebViewProcessExited;
 
-            
+
         }
 
         private void OnWebViewProcessExited(object o, object e)

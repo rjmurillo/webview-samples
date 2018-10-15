@@ -9,13 +9,4 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyCulture("")]
 
-[assembly: AssemblyProduct("WebView Samples for Windows Forms and Windows Presentation Foundation")]
-[assembly: AssemblyDescription("Samples for using WebView in Windows Forms and Windows Presentation Foundation")]
-
-#if DEBUG
-[assembly: AssemblyConfiguration("Debug")]
-#else
- [assembly: AssemblyConfiguration("Release")]
-#endif
-
 [assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
