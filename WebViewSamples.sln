@@ -3,39 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27702.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.WebViewControlProcessHelper", "WebViewSamples.Forms.WebViewControlProcessHelper\WebViewSamples.Forms.WebViewControlProcessHelper.csproj", "{75099650-3CB8-4354-B672-0D93ADB54449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.Designer", "Toolkit\dotnet\WebViewSamples.Forms.Designer\WebViewSamples.Forms.Designer.csproj", "{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.WebViewControlProcess", "WebViewSamples.Forms.WebViewControlProcess\WebViewSamples.Forms.WebViewControlProcess.csproj", "{4ABC8542-A64F-4648-B6FE-0F0C11370B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.WPF.Designer", "Toolkit\dotnet\WebViewSamples.WPF.Designer\WebViewSamples.WPF.Designer.csproj", "{9833494F-B1E2-4A25-863A-303C0EC80287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.Designer", "WebViewSamples.Forms.Designer\WebViewSamples.Forms.Designer.csproj", "{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.NoDesigner", "Toolkit\dotnet\WebViewSamples.Forms.NoDesigner\WebViewSamples.Forms.NoDesigner.csproj", "{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.WebViewControlProcessHelper", "WebViewSamples.WPF.WebViewControlProcessHelper\WebViewSamples.WPF.WebViewControlProcessHelper.csproj", "{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.WPF.Toolkit", "Toolkit\dotnet\Microsoft.Toolkit.Win32.Samples.WPF.WebView\WebViewSamples.WPF.Toolkit.csproj", "{2FE9AA6A-BD27-438F-9941-221033E4A1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.WebViewControlProcessHelperAsync", "WebViewSamples.WPF.WebViewControlProcessHelperAsync\WebViewSamples.WPF.WebViewControlProcessHelperAsync.csproj", "{2D9B3404-D404-4F60-889D-528D05E10C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.NoDesigner.SharedProc", "Toolkit\dotnet\WebViewSamples.Forms.NoDesigner.SharedProc\WebViewSamples.Forms.NoDesigner.SharedProc.csproj", "{71E21926-A9BC-4B55-B804-91BEA35625D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.WebViewControlProcess", "WebViewSamples.WPF.WebViewControlProcess\WebViewSamples.WPF.WebViewControlProcess.csproj", "{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32WebViewSampleApp", "WinMD\Win32\WebViewSamples.Win32\Win32WebViewSampleApp.vcxproj", "{42C24A77-C776-40BD-8473-CAE838B40068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.Designer", "WebViewSamples.WPF.Designer\WebViewSamples.WPF.Designer.csproj", "{9833494F-B1E2-4A25-863A-303C0EC80287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.Favicons", "Toolkit\dotnet\WebViewSamples.Forms.Favicons\WebViewSamples.Forms.Favicons.csproj", "{43CF0829-D8A9-4F49-8191-A746BD91D647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.NoDesigner", "WebViewSamples.Forms.NoDesigner\WebViewSamples.Forms.NoDesigner.csproj", "{8F4D5F89-4F54-46B6-B369-E7E40D393AE2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32cppwinrtWebViewSampleApp", "WinMD\Win32\WebViewSample.Win32.cppwinrt\Win32cppwinrtWebViewSampleApp.vcxproj", "{C6E3759C-93BE-47EC-8A29-BE16B093DDA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.WPF.DesktopBridge", "Microsoft.Toolkit.Win32.Samples.WPF.WebView\WebViewSamples.WPF.DesktopBridge.csproj", "{2FE9AA6A-BD27-438F-9941-221033E4A1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.Toolkit", "Toolkit\dotnet\Microsoft.Toolkit.Win32.Samples.WinForms.WebView\WebViewSamples.Forms.Toolkit.csproj", "{D103E448-64B1-407C-B09E-7C61AF9F2740}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WebViewSamples.WPF.DesktopBridge.WAP", "Wap\WebViewSamples.WPF.DesktopBridge.WAP.wapproj", "{5C665383-41AC-451B-9ECE-FF9768CAF243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebViewSamples.Forms.MultipleWebViews", "Toolkit\dotnet\WebViewSamples.Forms.MultipleWebViews\WebViewSamples.Forms.MultipleWebViews.csproj", "{08EE70C2-676D-425B-9633-1C9B84605562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.NoDesigner.SharedProc", "WebViewSamples.Forms.NoDesigner.SharedProc\WebViewSamples.Forms.NoDesigner.SharedProc.csproj", "{71E21926-A9BC-4B55-B804-91BEA35625D4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinMD", "WinMD", "{0DBA828C-4767-4C69-B7BA-71028577CFDC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32WebViewSampleApp", "WebViewSamples.Win32\Win32WebViewSampleApp.vcxproj", "{42C24A77-C776-40BD-8473-CAE838B40068}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32", "Win32", "{C3C8446F-01AE-4468-BE2B-BB00D810FBF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.Favicons", "WebViewSamples.Forms.Favicons\WebViewSamples.Forms.Favicons.csproj", "{43CF0829-D8A9-4F49-8191-A746BD91D647}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Toolkit", "Toolkit", "{C2B36E66-2BB3-4F55-9E43-F72299D9555B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32cppwinrtWebViewSampleApp", "WebViewSample.Win32.cppwinrt\Win32cppwinrtWebViewSampleApp.vcxproj", "{C6E3759C-93BE-47EC-8A29-BE16B093DDA6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{7698F53A-CB4E-4669-B7C7-6F694D26202D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Toolkit.Win32.Samples.WinForms.WebView", "Microsoft.Toolkit.Win32.Samples.WinForms.WebView\Microsoft.Toolkit.Win32.Samples.WinForms.WebView.csproj", "{D103E448-64B1-407C-B09E-7C61AF9F2740}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Forms", "Windows Forms", "{C722670B-ABAC-455D-A215-DDF73492AD2C}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WebViewSamples.WinForms.DesktopBridge.WAP", "WebViewSamples.WinForms.DesktopBridge.WAP\WebViewSamples.WinForms.DesktopBridge.WAP.wapproj", "{23442E02-34DA-4FC8-B49E-BF0B4625AA74}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewSamples.Forms.MultipleWebViews", "WebViewSamples.Forms.MultipleWebViews\WebViewSamples.Forms.MultipleWebViews.csproj", "{08EE70C2-676D-425B-9633-1C9B84605562}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Presentation Foundation", "Windows Presentation Foundation", "{000AB802-D6FB-4DB5-9880-7CCFE1BAB061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,34 +47,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|x64.Build.0 = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Debug|x86.Build.0 = Debug|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|Win32.ActiveCfg = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|x64.ActiveCfg = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|x64.Build.0 = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|x86.ActiveCfg = Release|Any CPU
-		{75099650-3CB8-4354-B672-0D93ADB54449}.Release|x86.Build.0 = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|x64.Build.0 = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Debug|x86.Build.0 = Debug|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|Win32.ActiveCfg = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|x64.ActiveCfg = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|x64.Build.0 = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|x86.ActiveCfg = Release|Any CPU
-		{4ABC8542-A64F-4648-B6FE-0F0C11370B07}.Release|x86.Build.0 = Release|Any CPU
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Debug|Win32.ActiveCfg = Debug|Any CPU
@@ -92,48 +62,6 @@ Global
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Release|x64.Build.0 = Release|Any CPU
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF}.Release|x86.Build.0 = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|x64.Build.0 = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Debug|x86.Build.0 = Debug|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|Win32.ActiveCfg = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|x64.ActiveCfg = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|x64.Build.0 = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|x86.ActiveCfg = Release|Any CPU
-		{3F07B706-0CB7-4F0A-968D-743E5B9D6A89}.Release|x86.Build.0 = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|x64.Build.0 = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Debug|x86.Build.0 = Debug|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|Win32.ActiveCfg = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|x64.ActiveCfg = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|x64.Build.0 = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|x86.ActiveCfg = Release|Any CPU
-		{2D9B3404-D404-4F60-889D-528D05E10C21}.Release|x86.Build.0 = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|x64.Build.0 = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Debug|x86.Build.0 = Debug|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|Win32.ActiveCfg = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|x64.ActiveCfg = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|x64.Build.0 = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|x86.ActiveCfg = Release|Any CPU
-		{E7E56C4D-049A-4883-B1A9-AEF4F8E4894B}.Release|x86.Build.0 = Release|Any CPU
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9833494F-B1E2-4A25-863A-303C0EC80287}.Debug|Win32.ActiveCfg = Debug|Any CPU
@@ -179,28 +107,6 @@ Global
 		{2FE9AA6A-BD27-438F-9941-221033E4A1DD}.Release|x64.Build.0 = Release|Any CPU
 		{2FE9AA6A-BD27-438F-9941-221033E4A1DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{2FE9AA6A-BD27-438F-9941-221033E4A1DD}.Release|x86.Build.0 = Release|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|Win32.ActiveCfg = Debug|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x64.ActiveCfg = Debug|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x64.Build.0 = Debug|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x64.Deploy.0 = Debug|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x86.ActiveCfg = Debug|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x86.Build.0 = Debug|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Debug|x86.Deploy.0 = Debug|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Win32.ActiveCfg = Release|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Win32.Build.0 = Release|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|Win32.Deploy.0 = Release|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x64.ActiveCfg = Release|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x64.Build.0 = Release|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x64.Deploy.0 = Release|x64
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x86.ActiveCfg = Release|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x86.Build.0 = Release|x86
-		{5C665383-41AC-451B-9ECE-FF9768CAF243}.Release|x86.Deploy.0 = Release|x86
 		{71E21926-A9BC-4B55-B804-91BEA35625D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71E21926-A9BC-4B55-B804-91BEA35625D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E21926-A9BC-4B55-B804-91BEA35625D4}.Debug|Win32.ActiveCfg = Debug|Any CPU
@@ -275,30 +181,6 @@ Global
 		{D103E448-64B1-407C-B09E-7C61AF9F2740}.Release|x64.Build.0 = Release|Any CPU
 		{D103E448-64B1-407C-B09E-7C61AF9F2740}.Release|x86.ActiveCfg = Release|Any CPU
 		{D103E448-64B1-407C-B09E-7C61AF9F2740}.Release|x86.Build.0 = Release|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Win32.ActiveCfg = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Win32.Build.0 = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|Win32.Deploy.0 = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x64.ActiveCfg = Debug|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x64.Build.0 = Debug|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x64.Deploy.0 = Debug|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x86.ActiveCfg = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x86.Build.0 = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Debug|x86.Deploy.0 = Debug|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Win32.ActiveCfg = Release|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Win32.Build.0 = Release|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|Win32.Deploy.0 = Release|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x64.ActiveCfg = Release|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x64.Build.0 = Release|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x64.Deploy.0 = Release|x64
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.ActiveCfg = Release|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.Build.0 = Release|x86
-		{23442E02-34DA-4FC8-B49E-BF0B4625AA74}.Release|x86.Deploy.0 = Release|x86
 		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EE70C2-676D-425B-9633-1C9B84605562}.Debug|Win32.ActiveCfg = Debug|Any CPU
@@ -318,6 +200,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7FD7BEA-D6FC-4F76-8636-72BB3104C5DF} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{9833494F-B1E2-4A25-863A-303C0EC80287} = {000AB802-D6FB-4DB5-9880-7CCFE1BAB061}
+		{8F4D5F89-4F54-46B6-B369-E7E40D393AE2} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{2FE9AA6A-BD27-438F-9941-221033E4A1DD} = {000AB802-D6FB-4DB5-9880-7CCFE1BAB061}
+		{71E21926-A9BC-4B55-B804-91BEA35625D4} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{42C24A77-C776-40BD-8473-CAE838B40068} = {C3C8446F-01AE-4468-BE2B-BB00D810FBF8}
+		{43CF0829-D8A9-4F49-8191-A746BD91D647} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{C6E3759C-93BE-47EC-8A29-BE16B093DDA6} = {C3C8446F-01AE-4468-BE2B-BB00D810FBF8}
+		{D103E448-64B1-407C-B09E-7C61AF9F2740} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{08EE70C2-676D-425B-9633-1C9B84605562} = {C722670B-ABAC-455D-A215-DDF73492AD2C}
+		{C3C8446F-01AE-4468-BE2B-BB00D810FBF8} = {0DBA828C-4767-4C69-B7BA-71028577CFDC}
+		{7698F53A-CB4E-4669-B7C7-6F694D26202D} = {C2B36E66-2BB3-4F55-9E43-F72299D9555B}
+		{C722670B-ABAC-455D-A215-DDF73492AD2C} = {7698F53A-CB4E-4669-B7C7-6F694D26202D}
+		{000AB802-D6FB-4DB5-9880-7CCFE1BAB061} = {7698F53A-CB4E-4669-B7C7-6F694D26202D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21952B92-234C-448F-A809-F178F04019D1}
