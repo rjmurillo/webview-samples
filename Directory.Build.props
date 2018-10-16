@@ -8,24 +8,22 @@
     <IsWPFProject>$(MSBuildProjectName.Contains('WPF'))</IsWPFProject>    
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Common.AssemblyInfo.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)\Common.AssemblyInfo.cs">
       <Link>Properties\Common.AssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="..\Constants.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)\Constants.cs">
       <Link>Constants.cs</Link>
     </Compile>
-    <Compile Include="..\GlobalSuppressions.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)\GlobalSuppressions.cs">
       <Link>GlobalSuppressions.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="Nerdbank.GitVersioning" Version=" 2.*" PrivateAssets="all" />        
-    <PackageReference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsFormsProject)' == 'true'" />
-    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsWPFProject)' == 'true'" />
   </ItemGroup>
   <ItemGroup>
-    <AdditionalFiles Include="..\stylecop.json">
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)\stylecop.json">
       <Link>stylecop.json</Link>
     </AdditionalFiles>
   </ItemGroup>  
