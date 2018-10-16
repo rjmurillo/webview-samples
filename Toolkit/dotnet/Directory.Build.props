@@ -1,0 +1,7 @@
+<Project>
+  <Import Project="../../Directory.Build.props" />
+  <ItemGroup>
+      <PackageReference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsFormsProject)' == 'true'" />
+      <PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls.WebView" Version="5.0.0-preview.gb86cb1c4cb" Condition="'$(IsWPFProject)' == 'true'" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project>
+  <Import Project="../../Directory.Build.targets" />
+  <ItemGroup>
+    <Reference Include="Windows">
+      <HintPath Condition="Exists('$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\$(TargetPlatformMinVersion)\Windows.winmd')">$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\$(TargetPlatformMinVersion)\Windows.winmd</HintPath>
+      <HintPath Condition="Exists('$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\$(TargetPlatformVersion)\Windows.winmd')">$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\$(TargetPlatformVersion)\Windows.winmd</HintPath>
+      <Private>False</Private>
+    </Reference>    
+    <Reference Include="System.Runtime.WindowsRuntime">
+      <HintPath>$(WINDIR)\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
