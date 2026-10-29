@@ -12,7 +12,7 @@
     <OutDir>$(OutputPath)</OutDir>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyTitle>Microsoft.Toolkit.Win32.Samples.WinForms.WebView</AssemblyTitle>
   </PropertyGroup>
