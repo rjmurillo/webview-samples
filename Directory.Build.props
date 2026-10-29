@@ -5,7 +5,8 @@
     <Description>Samples for using WebViewControl in Windows Forms and Windows Presentation Foundation</Description>
 
     <IsFormsProject>$(MSBuildProjectName.Contains('Forms'))</IsFormsProject>
-    <IsWPFProject>$(MSBuildProjectName.Contains('WPF'))</IsWPFProject>    
+    <IsWPFProject>$(MSBuildProjectName.Contains('WPF'))</IsWPFProject>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)\Common.AssemblyInfo.cs">
@@ -19,8 +20,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.*" PrivateAssets="all" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version=" 2.*" PrivateAssets="all" />        
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="all" />
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.*" PrivateAssets="all" />        
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)\stylecop.json">

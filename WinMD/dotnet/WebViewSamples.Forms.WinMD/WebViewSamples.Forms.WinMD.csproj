@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ProjectGuid>{37CDAC79-19D1-4188-B902-57D5FDDA8103}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <AssemblyTitle>WebViewSamples.Forms.WinMD</AssemblyTitle>
     <Product>WebViewSamples.Forms.WinMD</Product>
